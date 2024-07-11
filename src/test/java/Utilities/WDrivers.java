@@ -5,6 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.Locale;
@@ -62,6 +63,16 @@ public class WDrivers {
 
             threadDriver.set(driver);
 
+        }
+
+    }
+
+    public static void wait(int sn) {
+        try {
+            Thread.sleep(sn * 1000);
+        } catch
+        (InterruptedException e) {
+            throw new RuntimeException(e);
         }
 
     }
