@@ -13,7 +13,7 @@ QA Tester
 Getting Started
 ---------------
 
-The easiest way to get started is to clone the repository:
+The easiest way to get started is to clone the repository in Intellij:
 
 ```bash
 # File > New > Project From Version Control 
